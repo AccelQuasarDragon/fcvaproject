@@ -11,7 +11,7 @@ a = Analysis(
     ['example_mediapipe.py'],
     pathex=[],
     binaries=[],
-    datas=[(os.path.join(fcvadir, "examples", "creativecommonsmedia"),"examples\\creativecommonsmedia"),(os.path.join(fcvadir, "fonts"),"fonts")],
+    datas=[(os.path.join(fcvadir, "examples", "creativecommonsmedia"),os.path.join("examples","creativecommonsmedia")),(os.path.join(fcvadir, "fonts"),"fonts")],
     hiddenimports=[fcvadir, 'kivy', 'blosc2', 'kivy.modules.inspector'],
     hookspath=[],
     hooksconfig={},
