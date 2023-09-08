@@ -1,0 +1,4 @@
+build
+dist
+poetry.lock
+.DS_Store

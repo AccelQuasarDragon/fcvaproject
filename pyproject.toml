@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pypitestmac"
+version = "0.1.0"
+description = ""
+authors = ["\"me\""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.12"
+kivy = "^2.2.1"
+blosc = "^1.11.1"
+opencv-python = "^4.8.0.76"
+mediapipe = "^0.10.3"
+fastcvapp = {file = "/Users/raidraptorultimatefalcon/CODING/testing/fastcvapp-0.2.1-py3-none-any.whl"}
+pyinstaller = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
