@@ -5,7 +5,6 @@ block_cipher = None
 import fastcvapp
 import os
 fcvadir = os.path.dirname(fastcvapp.__file__)
-print("fcvadir?", fcvadir)
 
 a = Analysis(
     ['example_mediapipe.py'],
