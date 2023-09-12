@@ -1,0 +1,7 @@
+build
+dist
+poetry.lock
+.DS_Store
+creativecommonsmedia
+pyproject.toml
+fastcvapp-0.2.1-py3-none-any.whl

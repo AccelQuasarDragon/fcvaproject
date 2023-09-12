@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pypitest"
+version = "0.1.0"
+description = ""
+authors = ["AccelQuasarDragon <138998466+AccelQuasarDragon@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+kivy = "^2.2.1"
+opencv-python = "^4.8.0.76"
+mediapipe = "^0.10.3"
+blosc2 = "^2.2.6"
+pyinstaller = "^5.13.2"
+fastcvapp = "^0.2.1"
+
+[tool.poetry.group.dev.dependencies]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
